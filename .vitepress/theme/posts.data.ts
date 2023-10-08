@@ -1,4 +1,7 @@
 import { createContentLoader } from 'vitepress'
+import type { SiteConfig } from 'vitepress'
+
+const config: SiteConfig = (globalThis as any).VITEPRESS_CONFIG
 
 interface Post {
   title: string
@@ -19,7 +22,7 @@ export default createContentLoader('posts/*.md', {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
-        url,
+        url: (config.site.base + url).replace('//', '/'),
         excerpt,
         date: formatDate(frontmatter.date)
       }))
