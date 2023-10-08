@@ -4,6 +4,7 @@ export default defineConfig({
   title: "Ardeshir Izadi's Blog",
   description: 'Here I write my thoughts and ideas as a software engineer.',
   cleanUrls: true,
+  base: '/vue-point-fork/',
   head: [
     ['meta', { name: 'twitter:site', content: '@ArdeshirIzadi' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
