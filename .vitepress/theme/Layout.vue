@@ -27,7 +27,7 @@ const { page, frontmatter } = useData()
         <div class="text-sm text-gray-500 dark:text-white leading-5">
           <a
             class="hover:text-gray-700 dark:hover:text-gray-200"
-            href="https://github.com/vuejs/blog"
+            href="https://github.com/aghArdeshir/vue-point-fork"
             target="_blank"
             rel="noopener"
             >
