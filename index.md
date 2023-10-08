@@ -1,5 +1,5 @@
 ---
-title: The Vue Point
-subtext: Updates, tips & opinions from the maintainers of Vue.js.
+title: Ardeshir Izadi's Blog
+subtext: Here I write my thoughts and ideas as a software engineer.
 index: true
 ---

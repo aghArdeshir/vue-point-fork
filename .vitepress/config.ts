@@ -1,18 +1,17 @@
 import { defineConfig } from 'vitepress'
-import { genFeed } from './genFeed.js'
 
 export default defineConfig({
-  title: 'The Vue Point',
-  description: 'The offical blog for the Vue.js project',
+  title: "Ardeshir Izadi's Blog",
+  description: 'Here I write my thoughts and ideas as a software engineer.',
   cleanUrls: true,
   head: [
-    ['meta', { name: 'twitter:site', content: '@vuejs' }],
+    ['meta', { name: 'twitter:site', content: '@ArdeshirIzadi' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
     [
       'meta',
       {
         name: 'twitter:image',
-        content: 'https://vuejs.org/images/logo.png'
+        content: 'https://aghardeshir.github.io/android-chrome-512x512.png'
       }
     ],
     [
@@ -33,5 +32,4 @@ export default defineConfig({
       }
     ]
   ],
-  buildEnd: genFeed
 })
